@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C633132B1C0F96C90069C00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C633132A1C0F96C90069C00B /* AppDelegate.swift */; };
+		C633132E1C0F96C90069C00B /* chifan_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C633132C1C0F96C90069C00B /* chifan_ios.xcdatamodeld */; };
+		C63313301C0F96C90069C00B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C633132F1C0F96C90069C00B /* MasterViewController.swift */; };
+		C63313321C0F96C90069C00B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63313311C0F96C90069C00B /* DetailViewController.swift */; };
+		C63313351C0F96C90069C00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63313331C0F96C90069C00B /* Main.storyboard */; };
+		C63313371C0F96C90069C00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63313361C0F96C90069C00B /* Assets.xcassets */; };
+		C633133A1C0F96C90069C00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63313381C0F96C90069C00B /* LaunchScreen.storyboard */; };
+		C63313451C0F96C90069C00B /* chifan_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63313441C0F96C90069C00B /* chifan_iosTests.swift */; };
+		C63313501C0F96CA0069C00B /* chifan_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C633134F1C0F96CA0069C00B /* chifan_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C63313411C0F96C90069C00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C633131F1C0F96C90069C00B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63313261C0F96C90069C00B;
+			remoteInfo = "chifan-ios";
+		};
+		C633134C1C0F96C90069C00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C633131F1C0F96C90069C00B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63313261C0F96C90069C00B;
+			remoteInfo = "chifan-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C63313271C0F96C90069C00B /* chifan-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chifan-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C633132A1C0F96C90069C00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C633132D1C0F96C90069C00B /* chifan_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chifan_ios.xcdatamodel; sourceTree = "<group>"; };
+		C633132F1C0F96C90069C00B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C63313311C0F96C90069C00B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C63313341C0F96C90069C00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C63313361C0F96C90069C00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63313391C0F96C90069C00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C633133B1C0F96C90069C00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63313401C0F96C90069C00B /* chifan-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chifan-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63313441C0F96C90069C00B /* chifan_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chifan_iosTests.swift; sourceTree = "<group>"; };
+		C63313461C0F96C90069C00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C633134B1C0F96C90069C00B /* chifan-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chifan-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C633134F1C0F96CA0069C00B /* chifan_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chifan_iosUITests.swift; sourceTree = "<group>"; };
+		C63313511C0F96CA0069C00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63313241C0F96C90069C00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C633133D1C0F96C90069C00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63313481C0F96C90069C00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C633131E1C0F96C90069C00B = {
+			isa = PBXGroup;
+			children = (
+				C63313291C0F96C90069C00B /* chifan-ios */,
+				C63313431C0F96C90069C00B /* chifan-iosTests */,
+				C633134E1C0F96C90069C00B /* chifan-iosUITests */,
+				C63313281C0F96C90069C00B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C63313281C0F96C90069C00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63313271C0F96C90069C00B /* chifan-ios.app */,
+				C63313401C0F96C90069C00B /* chifan-iosTests.xctest */,
+				C633134B1C0F96C90069C00B /* chifan-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63313291C0F96C90069C00B /* chifan-ios */ = {
+			isa = PBXGroup;
+			children = (
+				C633132A1C0F96C90069C00B /* AppDelegate.swift */,
+				C633132F1C0F96C90069C00B /* MasterViewController.swift */,
+				C63313311C0F96C90069C00B /* DetailViewController.swift */,
+				C63313331C0F96C90069C00B /* Main.storyboard */,
+				C63313361C0F96C90069C00B /* Assets.xcassets */,
+				C63313381C0F96C90069C00B /* LaunchScreen.storyboard */,
+				C633133B1C0F96C90069C00B /* Info.plist */,
+				C633132C1C0F96C90069C00B /* chifan_ios.xcdatamodeld */,
+			);
+			path = "chifan-ios";
+			sourceTree = "<group>";
+		};
+		C63313431C0F96C90069C00B /* chifan-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C63313441C0F96C90069C00B /* chifan_iosTests.swift */,
+				C63313461C0F96C90069C00B /* Info.plist */,
+			);
+			path = "chifan-iosTests";
+			sourceTree = "<group>";
+		};
+		C633134E1C0F96C90069C00B /* chifan-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C633134F1C0F96CA0069C00B /* chifan_iosUITests.swift */,
+				C63313511C0F96CA0069C00B /* Info.plist */,
+			);
+			path = "chifan-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63313261C0F96C90069C00B /* chifan-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63313541C0F96CA0069C00B /* Build configuration list for PBXNativeTarget "chifan-ios" */;
+			buildPhases = (
+				C63313231C0F96C90069C00B /* Sources */,
+				C63313241C0F96C90069C00B /* Frameworks */,
+				C63313251C0F96C90069C00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chifan-ios";
+			productName = "chifan-ios";
+			productReference = C63313271C0F96C90069C00B /* chifan-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C633133F1C0F96C90069C00B /* chifan-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63313571C0F96CA0069C00B /* Build configuration list for PBXNativeTarget "chifan-iosTests" */;
+			buildPhases = (
+				C633133C1C0F96C90069C00B /* Sources */,
+				C633133D1C0F96C90069C00B /* Frameworks */,
+				C633133E1C0F96C90069C00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63313421C0F96C90069C00B /* PBXTargetDependency */,
+			);
+			name = "chifan-iosTests";
+			productName = "chifan-iosTests";
+			productReference = C63313401C0F96C90069C00B /* chifan-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C633134A1C0F96C90069C00B /* chifan-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C633135A1C0F96CA0069C00B /* Build configuration list for PBXNativeTarget "chifan-iosUITests" */;
+			buildPhases = (
+				C63313471C0F96C90069C00B /* Sources */,
+				C63313481C0F96C90069C00B /* Frameworks */,
+				C63313491C0F96C90069C00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C633134D1C0F96C90069C00B /* PBXTargetDependency */,
+			);
+			name = "chifan-iosUITests";
+			productName = "chifan-iosUITests";
+			productReference = C633134B1C0F96C90069C00B /* chifan-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C633131F1C0F96C90069C00B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Donghan Miao";
+				TargetAttributes = {
+					C63313261C0F96C90069C00B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C633133F1C0F96C90069C00B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C63313261C0F96C90069C00B;
+					};
+					C633134A1C0F96C90069C00B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C63313261C0F96C90069C00B;
+					};
+				};
+			};
+			buildConfigurationList = C63313221C0F96C90069C00B /* Build configuration list for PBXProject "chifan-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C633131E1C0F96C90069C00B;
+			productRefGroup = C63313281C0F96C90069C00B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63313261C0F96C90069C00B /* chifan-ios */,
+				C633133F1C0F96C90069C00B /* chifan-iosTests */,
+				C633134A1C0F96C90069C00B /* chifan-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63313251C0F96C90069C00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C633133A1C0F96C90069C00B /* LaunchScreen.storyboard in Resources */,
+				C63313371C0F96C90069C00B /* Assets.xcassets in Resources */,
+				C63313351C0F96C90069C00B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C633133E1C0F96C90069C00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63313491C0F96C90069C00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63313231C0F96C90069C00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C633132E1C0F96C90069C00B /* chifan_ios.xcdatamodeld in Sources */,
+				C633132B1C0F96C90069C00B /* AppDelegate.swift in Sources */,
+				C63313301C0F96C90069C00B /* MasterViewController.swift in Sources */,
+				C63313321C0F96C90069C00B /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C633133C1C0F96C90069C00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63313451C0F96C90069C00B /* chifan_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63313471C0F96C90069C00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63313501C0F96CA0069C00B /* chifan_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C63313421C0F96C90069C00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63313261C0F96C90069C00B /* chifan-ios */;
+			targetProxy = C63313411C0F96C90069C00B /* PBXContainerItemProxy */;
+		};
+		C633134D1C0F96C90069C00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C63313261C0F96C90069C00B /* chifan-ios */;
+			targetProxy = C633134C1C0F96C90069C00B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C63313331C0F96C90069C00B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63313341C0F96C90069C00B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C63313381C0F96C90069C00B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63313391C0F96C90069C00B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C63313521C0F96CA0069C00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C63313531C0F96CA0069C00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63313551C0F96CA0069C00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "chifan-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "we.chifan-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C63313561C0F96CA0069C00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "chifan-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "we.chifan-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C63313581C0F96CA0069C00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "chifan-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "we.chifan-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chifan-ios.app/chifan-ios";
+			};
+			name = Debug;
+		};
+		C63313591C0F96CA0069C00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "chifan-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "we.chifan-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chifan-ios.app/chifan-ios";
+			};
+			name = Release;
+		};
+		C633135B1C0F96CA0069C00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "chifan-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "we.chifan-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "chifan-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C633135C1C0F96CA0069C00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "chifan-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "we.chifan-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "chifan-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C63313221C0F96C90069C00B /* Build configuration list for PBXProject "chifan-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63313521C0F96CA0069C00B /* Debug */,
+				C63313531C0F96CA0069C00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63313541C0F96CA0069C00B /* Build configuration list for PBXNativeTarget "chifan-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63313551C0F96CA0069C00B /* Debug */,
+				C63313561C0F96CA0069C00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C63313571C0F96CA0069C00B /* Build configuration list for PBXNativeTarget "chifan-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63313581C0F96CA0069C00B /* Debug */,
+				C63313591C0F96CA0069C00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C633135A1C0F96CA0069C00B /* Build configuration list for PBXNativeTarget "chifan-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C633135B1C0F96CA0069C00B /* Debug */,
+				C633135C1C0F96CA0069C00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C633132C1C0F96C90069C00B /* chifan_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C633132D1C0F96C90069C00B /* chifan_ios.xcdatamodel */,
+			);
+			currentVersion = C633132D1C0F96C90069C00B /* chifan_ios.xcdatamodel */;
+			path = chifan_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C633131F1C0F96C90069C00B /* Project object */;
+}
